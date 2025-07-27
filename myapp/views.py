@@ -7,7 +7,10 @@ import logging
 logger = logging.getLogger(__name__)
 
 # Create your views here.
-new_da = 1
+def book_list_1(request):
+    logger.info("Book list view was accessed.")
+    books = Book.objects.all()
+    return render(request, 'myapp/book_list.html', {'books' : books})
 
 def book_list(request):
     logger.info("Book list view was accessed.")
