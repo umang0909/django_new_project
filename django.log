@@ -1,4 +1,0 @@
-INFO 2025-04-11 16:02:06,378 autoreload Watching for file changes with StatReloader
-INFO 2025-04-11 16:02:51,111 views Book list view was accessed.
-INFO 2025-04-11 16:02:51,116 basehttp "GET / HTTP/1.1" 200 715
-INFO 2025-04-11 16:26:02,294 autoreload Watching for file changes with StatReloader
